@@ -1,6 +1,9 @@
 /* Add your own CSS code below */
 .link {
+  <<<<<<<HEAD
   color: #f16304;
+  =======color: #f17d1f;
+  >>>>>>>master
   font-weight: 700;
   text-decoration: none;
 }
