@@ -1,11 +1,5 @@
 /* Add your own CSS code below */
 .link {
-  <<<<<<<HEAD
   color: #0492f1;
-  =======<<<<<<<HEAD
-  color: #f16304;
-  =======color: #f17d1f;
-  >>>>>>>master>>>>>>> dd766424f4576e03b9a2fe2b3d59c58f06955ace
-  font-weight: 700;
   text-decoration: none;
 }
