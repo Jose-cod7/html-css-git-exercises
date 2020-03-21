@@ -10,10 +10,10 @@
 .countries--second {
   align-items: center;
 }
-.countries--second .country--ethiopia {
-  align-items: flex-end;
-}
 
+.countries--second .country--ethiopia {
+  align-self: flex-end;
+}
 .countries--third {
   align-items: flex-start;
 }
