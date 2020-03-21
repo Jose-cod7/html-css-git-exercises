@@ -10,6 +10,9 @@
 .countries--second {
   align-items: center;
 }
+.countries--second .country--ethiopia {
+  align-items: flex-end;
+}
 
 .countries--third {
   align-items: flex-start;
