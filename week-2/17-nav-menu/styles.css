@@ -9,10 +9,12 @@
 @media screen and (min-width: 700px) {
   .site-header {
     display: flex;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 992px) {
   .site-header {
     justify-content: space-between;
+    align-items: baseline;
   }
 }
