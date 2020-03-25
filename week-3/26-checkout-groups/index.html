@@ -38,7 +38,59 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billing Address</legend>
+              <form for="addressline1">
+                <label>Address Line 1</label>
+                <input id="addressline1" type="text" name="address-line" />
+              </form>
+              <br />
 
+              <form for="addressline2">
+                <label>Address Line 2</label>
+                <input id="addressline2" type="text" name="address-line" />
+              </form>
+              <br />
+
+              <form for="postcode">
+                <label>Postcode</label>
+                <input id="postcode" type="number" name="postcode" />
+              </form>
+              <br />
+
+              <form for="city">
+                <label>City</label>
+                <input id="city" type="text" name="city" />
+              </form>
+              <br />
+            </fieldset>
+            <br />
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <form for="addressline1">
+                <label>Address Line 1</label>
+                <input id="addressline1" type="text" name="address-line" />
+              </form>
+              <br />
+
+              <form for="addressline2">
+                <label>Address Line 2</label>
+                <input id="addressline2" type="text" name="address-line" />
+              </form>
+              <br />
+
+              <form for="postcode">
+                <label>Postcode</label>
+                <input id="postcode" type="number" name="postcode" />
+              </form>
+              <br />
+
+              <form for="city">
+                <label>City</label>
+                <input id="city" type="text" name="city" />
+              </form>
+              <br />
+            </fieldset>
             <button type="submit">Complete Purchase</button>
           </form>
         </div>
